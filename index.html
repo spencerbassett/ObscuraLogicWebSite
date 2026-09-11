@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obscura Logic</title>
+<meta name="description" content="Obscura Logic is an independent software studio building mobile and web applications.">
+<style>
+  :root {
+    --bg: #faf8f4;
+    --fg: #262220;
+    --muted: #6b6560;
+    --accent: #7a4f2b;
+    --border: #e4ddd3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1815;
+      --fg: #f1ece5;
+      --muted: #a89f95;
+      --accent: #d9a86c;
+      --border: #332d27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 3rem;
+  }
+  header {
+    margin-bottom: 2.5rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.4rem;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  section {
+    margin-bottom: 2.25rem;
+  }
+  h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0 0 0.6rem;
+  }
+  p { margin: 0 0 0.75rem; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover { border-bottom-color: var(--accent); }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Obscura Logic</h1>
+      <p class="tagline">Independent software studio.</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>Obscura Logic is an independent software development studio founded by Spencer Bassett, building mobile and web applications.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p><a href="mailto:google@obscuralogic.com">google@obscuralogic.com</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Obscura Logic
+    </footer>
+  </div>
+</body>
+</html>
