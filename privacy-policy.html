@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Book Ratings</title>
+<meta name="description" content="Privacy policy for the Book Ratings app by Obscura Logic.">
+<style>
+  :root {
+    --bg: #faf8f4;
+    --fg: #262220;
+    --muted: #6b6560;
+    --accent: #7a4f2b;
+    --border: #e4ddd3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1815;
+      --fg: #f1ece5;
+      --muted: #a89f95;
+      --accent: #d9a86c;
+      --border: #332d27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 3rem;
+  }
+  header {
+    margin-bottom: 2.5rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.4rem;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  section {
+    margin-bottom: 2.25rem;
+  }
+  h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0 0 0.6rem;
+  }
+  p { margin: 0 0 0.75rem; }
+  ul { margin: 0 0 0.75rem; padding-left: 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a:hover { border-bottom-color: var(--accent); }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="tagline">Book Ratings, by Obscura Logic — effective September 12, 2026</p>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>Book Ratings ("the App") is developed by Obscura Logic. This policy explains what information the App collects, how it's used, who it's shared with, and how you can request that your data be deleted. The App is not directed at children under 13, and we do not knowingly collect data from children.</p>
+    </section>
+
+    <section>
+      <h2>Information we collect</h2>
+      <p><strong>Account information.</strong> When you create an account, we collect your email address, first name, and last name. Your password is never stored in plain text — it is hashed using PBKDF2 (HMAC-SHA256) with a unique random salt before it reaches our database, and it cannot be recovered by us.</p>
+      <p><strong>Content you create.</strong> Content ratings you submit for books (violence, language, sexual content, substance use, horror, self-harm, religion, and abuse, each on a 0–5 scale), an overall rating, and any free-text review comments you write. Your reading status and progress for books (want to read / currently reading / read / did not finish, and page or percent progress), and any custom shelves you create.</p>
+      <p><strong>Social information.</strong> If you use the friends feature, we store friend requests and friendships you create, and we show connected friends limited information about your reading activity (such as books you've rated or marked as read) and your name.</p>
+      <p><strong>Ratings and reviews you submit are visible to other users</strong> as part of the App's community rating and review features (for example, aggregated content ratings and public review text shown alongside a book).</p>
+      <p><strong>Camera.</strong> The App requests camera access solely to scan a book's ISBN barcode when you use the scan feature. The camera image itself is never stored or transmitted — only the decoded barcode number is used to look up the book.</p>
+      <p><strong>Technical information.</strong> Our servers may log standard technical information (such as IP address and request timestamps) for security, abuse prevention, and operational troubleshooting. We do not use this information for advertising or profiling.</p>
+      <p>We do not use any advertising or analytics SDKs, and we do not sell your personal data.</p>
+    </section>
+
+    <section>
+      <h2>How we use your information</h2>
+      <ul>
+        <li>To create and secure your account, and to authenticate you when you sign in.</li>
+        <li>To store and display your ratings, reviews, and reading activity, and to compute community-aggregated content ratings for books.</li>
+        <li>To generate an AI-estimated content rating for books that don't yet have enough community ratings (see below).</li>
+        <li>To provide social features such as friends and shared reading activity, where you choose to use them.</li>
+        <li>To maintain the security, integrity, and reliability of the App.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Third parties we share data with</h2>
+      <p><strong>Book data providers (isbndb).</strong> When you search for a book, we may query the isbndb API to look up book metadata (title, author, cover, etc.). Only the search terms you enter are sent — no account or personal information is shared with isbndb.</p>
+      <p><strong>AI content-rating estimates (Anthropic).</strong> For books without enough community ratings yet, the App may ask Anthropic's Claude API to generate an estimated content rating. Only the book's own metadata (such as title and author) is sent for this purpose — your account information, identity, or personal data is never included in these requests.</p>
+      <p><strong>Hosting infrastructure.</strong> The App's backend and database run on infrastructure operated by Obscura Logic. We do not share your data with any other third party, and we never sell personal data.</p>
+    </section>
+
+    <section>
+      <h2>Data retention and deletion</h2>
+      <p>We retain your account and content for as long as your account remains active. You may request deletion of your account and all associated personal data at any time by emailing <a href="mailto:spencer@obscuralogic.com">spencer@obscuralogic.com</a> from the email address on your account. We will delete your personal data completely — not merely deactivate it — except where a short retention period is required to comply with the law or resolve disputes. We aim to complete deletion requests within 30 days.</p>
+    </section>
+
+    <section>
+      <h2>Data security</h2>
+      <p>Data is encrypted in transit using TLS. Passwords are hashed (never stored in plain text), and authentication uses short-lived tokens that are rotated on use. While no system can guarantee absolute security, we take reasonable measures to protect your information.</p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <p>You can edit your content preferences, ratings, and reviews at any time within the App. You may delete individual ratings, reviews, shelves, or friend connections from within the App. To delete your account entirely, contact us as described above.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If we make material changes to this policy, we will update the effective date above and, where appropriate, notify you within the App.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p><a href="mailto:spencer@obscuralogic.com">spencer@obscuralogic.com</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Obscura Logic
+    </footer>
+  </div>
+</body>
+</html>
